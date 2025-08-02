@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-@RequestMapping("/hone")
+@RequestMapping("/home")
 public class HomeController {
 
     @GetMapping
     public String homePage() {
-        return "<h1>Приветствуем вас в приложении Котограм!";
+        return "<h1>Приветствуем вас, в приложении Котограм!";
     }
 
 }
