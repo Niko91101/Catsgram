@@ -7,7 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode(of = "id")
+@NoArgsConstructor
 public class Image {
+
     private Long id;
 
     private long postId;
